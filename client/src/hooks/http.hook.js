@@ -1,7 +1,4 @@
 //Создаем хуки для обработки запросов
-
-import { json } from 'express'
-import { set } from 'mongoose'
 import {useState, useCallback} from 'react'
 
 export const useHttp = () => {
